@@ -38,9 +38,9 @@ public class PersonDirectory {
         return personDirectory;
     }
 
-//    public void setPersonDirectory(ArrayList<Person> personDirectory) {
-//        this.personDirectory = personDirectory;
-//    }
+   public void setPersonDirectory(ArrayList<Person> personDirectory) {
+        this.personDirectory = personDirectory;
+    }
     
     public Person addPerson(){
         Person newPerson = new Person();
