@@ -22,7 +22,7 @@ public class PersonDirectory {
         Person person3 = new Person("POE987455","Max", 65, "52 Puddington St", "maxarnold@gmail.com", "Mission Main", false);
         Person person4 = new Person("PLE964587","Ronald", 45, "1573 Hammond St", "ronaldk@gmail.com", "Roxbury", false);
         Person person5 = new Person("123456789","Haley", 65, "15 Hammond St", "haley@gmail.com", "Roxbury", false);
-        //SPerson person6 = new Person("12345678","Jill", 20, "15 germain Street", "jill@gmail.com", "saint germain", false);
+        Person person6 = new Person("12345678","Jill", 20, "15 germain Street", "jill@gmail.com", "saint germain", false);
         
         personDirectory.add(person1);
         personDirectory.add(person2);
@@ -38,9 +38,9 @@ public class PersonDirectory {
         return personDirectory;
     }
 
-    public void setPersonDirectory(ArrayList<Person> personDirectory) {
-        this.personDirectory = personDirectory;
-    }
+//    public void setPersonDirectory(ArrayList<Person> personDirectory) {
+//        this.personDirectory = personDirectory;
+//    }
     
     public Person addPerson(){
         Person newPerson = new Person();
